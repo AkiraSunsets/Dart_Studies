@@ -52,7 +52,6 @@ class TelaInicial extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(),
                   Text(
                     "Olá Usuário",
                     style: TextStyle(
@@ -65,14 +64,14 @@ class TelaInicial extends StatelessWidget {
               ),
             ),
           ),
+
+
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: 
             [
-
               Text(
                 "Olá Usuário",
-
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 15,
